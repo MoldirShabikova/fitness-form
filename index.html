@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Fitness Reservation Page!</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h2>Fitness Reservation Page!</h2>
+      </header>
+    </div>
+    <div class="container">
+      <form id="reservation-form">
+        <fieldset>
+          <legend>Member Demographics</legend>
+          <label for="name" id="name">Name</label>
+          <input type="text" id="name" />
+          <p>Are you a Member?</p>
+
+          <input type="radio" name="member" id="member" />
+          <label for="member">Member</label>
+
+          <input type="radio" name="member" id="non-member" />
+          <label for="non-member">Non-member</label>
+          <div>
+            <label for="email" id="email">Email</label>
+            <input type="email" id="email" name="email" />
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Date & Time</legend>
+          <label for="facility">Facility</label>
+          <select name="facility" id="facility">
+            <option value="badminton">Badminton</option>
+            <option value="soccer">Soccer</option>
+            <option value="baseball">Baseball</option>
+            <option value="tennis">Tennis</option>
+          </select>
+          <p>Select a reservation date and time:</p>
+          <input type="date" name="date" id="date" />
+          <input type="time" name="time" id="time" />
+          <div>
+            <input type="checkbox" name="checkbox" id="checkbox" />
+            <label for="checkbox"
+              >I agree to the club's reservation policy</label
+            >
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>

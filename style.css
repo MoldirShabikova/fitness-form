@@ -1,0 +1,15 @@
+h2 {
+  background-color: rgb(141, 165, 221);
+  color: white;
+  width: 400px;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+#reservation-form {
+  background-color: rgb(159, 173, 229);
+  border: 5px dashed rgb(0, 47, 255);
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
